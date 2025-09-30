@@ -1,1 +1,1 @@
-git@github.com:KolachevVv/ono-tebe-nado.git
+git@github.com:KolachevVv/ono-tebe-nado-fd.git
