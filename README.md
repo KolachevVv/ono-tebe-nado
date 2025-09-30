@@ -1,1 +1,1 @@
-https://github.com/KolachevVv/Ono-tebe-nado-final
+git@github.com:KolachevVv/ono-tebe-nado.git
