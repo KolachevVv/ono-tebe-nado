@@ -207,7 +207,6 @@
   grid-template-columns: 334px repeat(1, 1fr);
   gap: 24px;
   padding: 28px 24px 0px;
-  
 }
 .about_logo {
   justify-self: center;
@@ -226,43 +225,51 @@
 .about_content {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding-top: 100px;
+  gap: 22px;
+  
 }
 .title_about {
   color: black;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
+  text-transform: uppercase;
+  padding-top:101px ;
 }
 .about_text {
+  display: flex;
+  flex-direction: column;
+  gap:24px;
   align-self: flex-start;
   color: black;
   font-size: 20px;
   font-weight: 400;
-  line-height: 24px;
 }
-.text_up {
-  padding-top: 76px;
-} 
-.text_down {
-  padding-top: 24px;
+.text_container {
+  display: block;
+  padding-top: 77px;
+}
+.text_container:last-child {
+  padding-top:3px;
 }
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 180px 50px 88px;
+  padding: 184px 50px 88px;
   align-items: flex-start;
 }
 .footer_address {
   display: flex;
   flex-direction: column;
-  justify-self: start;
+  justify-self: end;
   align-items: flex-start;
-  width: 100%;
-  max-width: 265px;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0.18px;
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
   font-style: normal;
-  list-style: none;
+  width: 240px;
 }
 .footer_menu_links {
   list-style-type: none;
